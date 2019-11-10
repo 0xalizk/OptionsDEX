@@ -8,16 +8,21 @@ A "put" option is the reverse: Alice buys the option to _sell_ an asset at some 
 
 ## Run the DEX
 
-`git clone https://github.com/aliatiia/OptionsDEX`
-`cd backend && vim .env`
-edit this: `RPC_URL="https://kovan.infura.io/v3/[`PUT YOUR INFURA KEY HERE`]`
+Backend: 
+`git clone https://github.com/0xProject/0x-launch-kit-backend`
+`cd 0x-launch-kit-backend`
+`vim .env` # edit this: `RPC_URL="https://kovan.infura.io/v3/[`PUT YOUR INFURA KEY HERE`]`
 `yarn start:js`
 
-(in another terminal tab):
-`cd frontend && REACT_APP_RELAYER_URL="http://localhost:3000/v2" yarn start`
-(note: it may take up to 2 minutes)
 
-go to `http://localhost:3001/` in your borwser.
+(in another terminal tab):
+`git clone https://github.com/aliatiia/OptionsDEX`
+`cd OptionsDEX`
+`REACT_APP_RELAYER_URL="http://localhost:3000/v2" yarn start`
+
+(note: it may take up to ~2 minutes)
+
+Visit the DEX at `http://localhost:3001/` in your borwser.
 
 ## Launch the Issuance frontend:
 
