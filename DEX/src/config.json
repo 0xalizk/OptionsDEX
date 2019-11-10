@@ -1,0 +1,69 @@
+{
+    "general": {
+        "title": "Muh Options DEX"
+    },
+    "tokens": [
+        {
+            "symbol": "zrx",
+            "name": "0x Protocol Token",
+            "primaryColor": "#333333",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "42": "0x2002d3812f58e35f0ea1ffbf80a75a38c32175fa"
+            },
+            "decimals": 18,
+            "displayDecimals": 2
+        },
+        {
+            "symbol": "weth",
+            "name": "Wrapped Ether",
+            "primaryColor": "#3333ff",
+            "icon": "assets/icons/weth.svg",
+            "addresses": {
+                "42": "0xd0a1e359811322d97991e03f863a0c30c2cf029c"
+            },
+            "decimals": 18,
+            "displayDecimals": 2
+        },
+        {
+            "decimals": 18,
+            "symbol": "dai",
+            "name": "Dai",
+            "icon": "assets/icons/dai.svg",
+            "primaryColor": "#DEA349",
+            "addresses": {
+                "42": "0xc4375b7de8af5a38a93548eb8453a498222c4ff2"
+            }
+        },
+        {
+            "decimals": 18,
+            "symbol": "sym",
+            "name": "Call Option BTC",
+            "icon": "assets/icons/bear.png",
+            "primaryColor": "#DEA349",
+            "addresses": {
+                "42": "0xc55b43cfe753c553cc951f4d6f8b07214ac789b4"
+            }
+        }
+    ],
+    "pairs": [
+        {
+            "base":"sym",
+            "quote":"weth"
+        },
+        {
+            "base":"sym",
+            "quote":"dai"
+        }
+    ],
+    "marketFilters": [
+        {
+            "text": "ETH",
+            "value": "weth"
+        },
+        {
+            "text": "DAI",
+            "value": "dai"
+        }
+    ]
+}
