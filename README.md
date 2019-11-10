@@ -6,15 +6,15 @@ A peer-to-peer call and put options on Ethereum powered by UMA and 0x. Generally
 A "put" option is the reverse: Alice buys the option to _sell_ an asset at some point in the future. 
 
 
-## Run the DEX
+## DEX: 
 
-Backend: 
+### _Backend_:
 `git clone https://github.com/0xProject/0x-launch-kit-backend`
 `cd 0x-launch-kit-backend`
 `vim .env` # edit this: `RPC_URL="https://kovan.infura.io/v3/[`PUT YOUR INFURA KEY HERE`]`
 `yarn start:js`
 
-
+### _Frontend_:
 (in another terminal tab):
 `git clone https://github.com/aliatiia/OptionsDEX`
 `cd OptionsDEX`
@@ -24,8 +24,11 @@ Backend:
 
 Visit the DEX at `http://localhost:3001/` in your borwser.
 
-## Launch the Issuance frontend:
-
+## Issuance:
+TODO
+### _Backend_
+TODO
+### _Frontend_
 TODO
 
 
