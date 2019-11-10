@@ -38,15 +38,6 @@ A "put" option is the reverse: Alice buys the option to _sell_ an asset at some 
 Visit the DEX at `http://localhost:3001/` in your borwser.
 
 ## Issuance:
-TODO
-
-### _Backend_
-TODO
-
-### _Frontend_
-TODO
-
-
-
+TODO: a frontend to mint new put/call options (UMA's modified factory contract) and auto-listing them on OptionsDEX
 
 
