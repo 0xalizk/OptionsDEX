@@ -1,3 +1,8 @@
+
+<img src="DEX/logo.png" width="500">
+
+
+
 # OptionsDEX
 ETHWaterloo Hackathon 2019. 
 
