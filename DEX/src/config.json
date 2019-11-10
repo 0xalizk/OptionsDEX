@@ -4,17 +4,6 @@
     },
     "tokens": [
         {
-            "symbol": "zrx",
-            "name": "0x Protocol Token",
-            "primaryColor": "#333333",
-            "icon": "assets/icons/zrx.svg",
-            "addresses": {
-                "42": "0x2002d3812f58e35f0ea1ffbf80a75a38c32175fa"
-            },
-            "decimals": 18,
-            "displayDecimals": 2
-        },
-        {
             "symbol": "weth",
             "name": "Wrapped Ether",
             "primaryColor": "#3333ff",
@@ -37,22 +26,70 @@
         },
         {
             "decimals": 18,
-            "symbol": "sym",
-            "name": "Call Option BTC",
+            "symbol": "xesg",
+            "name": "Canadian ESG ETF",
             "icon": "assets/icons/bear.png",
-            "primaryColor": "#DEA349",
+            "primaryColor": "#ff0000",
             "addresses": {
-                "42": "0xc55b43cfe753c553cc951f4d6f8b07214ac789b4"
+            "42": "0xde2b97d8921067c40971f54475c1bc103a4bd5fa"
+            }
+        },
+        {
+            "decimals": 18,
+            "symbol": "poeth",
+            "name": "Put-Option ETH",
+            "icon": "assets/icons/bear.png",
+            "primaryColor": "#ff00ff",
+            "addresses": {
+            "42": "0xd20be02c2da5f4e8a566347f05f131d0421063b3"
+            }
+        },
+        {
+            "decimals": 18,
+            "symbol": "coeth",
+            "name": "Call-Option ETH",
+            "icon": "assets/icons/bear.png",
+            "primaryColor": "#39ac39",
+            "addresses": {
+            "42": "0x71fF03e8fC9dB72fdF6D45a99F31f72a8Bb0F605"
+            }
+        },        
+        {
+            "decimals": 18,
+            "symbol": "tcad",
+            "name": "TrueCAD",
+            "icon": "assets/icons/bear.png",
+            "primaryColor": "#000000",
+            "addresses": {
+            "42": "0x00000100f2a2bd000715001920eb70d229700085"
             }
         }
+
+
     ],
     "pairs": [
         {
-            "base":"sym",
+            "base":"coETH",
             "quote":"weth"
         },
         {
-            "base":"sym",
+            "base":"coETH",
+            "quote":"Dai"
+        },
+        {
+            "base":"poETH",
+            "quote":"weth"
+        },
+        {
+            "base":"poETH",
+            "quote":"Dai"
+        },
+        {
+            "base":"xesg",
+            "quote":"weth"
+        },
+        {            
+            "base":"xesg",
             "quote":"dai"
         }
     ],
@@ -67,3 +104,4 @@
         }
     ]
 }
+
