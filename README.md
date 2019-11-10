@@ -1,5 +1,5 @@
 
-<img src="DEX/logo.png" width="700">
+<center><img src="DEX/logo.png" width="700"></center>
 
 
 
