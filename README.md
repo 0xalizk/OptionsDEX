@@ -4,7 +4,7 @@
 
 
 # OptionsDEX
-ETHWaterloo Hackathon 2019. 
+ETHWaterloo Hackathon 2019 (accessible thru Venu's WiFi at http://172.31.212.21:3001/). 
 
 A peer-to-peer call and put options on Ethereum powered by UMA and 0x. Generally the user interacts with an issuance and/or and exchange interface. In Issuance page, the user can create a "put" or "call" option on any finance asset that can have a price feed. For example, Alice can create an option that says "I would like to _have the option_ to buy ETH at $200 6 months from now". That option is a tokenized derivative (ERC20) that automatically gets listed on the DEX: the exchange interface (DEX = decentralized exchange). A counterparty can see that "option" and satify it, for a fee of course. So the counterparty "buys" that option, effectively earning a fee while pledging to deliver the ETH to Alice 6 months from now. 
 
