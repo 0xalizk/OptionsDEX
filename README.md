@@ -4,7 +4,7 @@
 
 
 # OptionsDEX
-ETHWaterloo Hackathon 2019 (accessible thru Venu's WiFi at http://172.31.212.21:3001/). 
+ETHWaterloo Hackathon 2019 submission: https://devpost.com/software/muh-options
 
 Note on tickers: poETH = put-option-ETH for example.
 
