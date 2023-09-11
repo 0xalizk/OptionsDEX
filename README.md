@@ -1,6 +1,7 @@
 
 <center><img src="DEX/logo.png" width="800"></center>
 
+![Screenshot 2023-09-10 at 22-30-56 Muh Options](https://github.com/aliatiia/OptionsDEX/assets/42751398/c1a2ae22-2087-48c8-8590-c73db2b6c2b9)
 
 
 # OptionsDEX
